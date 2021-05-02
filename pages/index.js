@@ -8,7 +8,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil
@@ -29,7 +28,6 @@ export default function Home() {
           See ninjas listings
         </a>
       </Link>
-      <Footer />
     </div>
   )
 }
